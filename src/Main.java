@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 public class Main {
     private int count = 0;
     private String text1 = "Counter is : ";
-    private JPanel p  = new JPanel();
+    private JPanel p  = new JPanel( );
     private JButton counter = new JButton("Add int >D");
     private JLabel text = new JLabel(text1+ count);
     public static void main(String[] args) {
